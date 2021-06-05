@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="top-forms">
+        <div class="product">
+          <div class="buysForm">
+            <form action="" name="buysForm">
+              <h3>Выберите фирму</h3>
+              <select name="telephone" id="">
+                <!-- <option>Выберите производителя</option> -->
+                <option value="apple">IPHONE</option>
+                <option value="samsung">SAMSUNG</option>
+                <option value="xiaomi">XIAOMI</option>
+                <option value="huawei">HUAWEI</option>
+                <option value="zte">ZTE</option>
+              </select>
+            </form>
+          </div>
+          <div class="phoneView">
+            <h3>Выберите модель</h3>
+            <div class="phoneViewInner"></div>
+          </div>
+        </div>
+        <div class="modelView">
+          <h3>Характеристики выбранной модели</h3>
+          <div class="modelViewInner"></div>
+        </div>
+        <div class="login-form">
+          <form name="loginForm">
+            <label for="">
+              Введите Ваше имя
+              <input type="text" name="name" id="" />
+            </label>
+            <label for="">
+              Введите Ваш номер телефона
+              <input type="tel" name="tel" id="" />
+            </label>
+            <div class="rad">
+              Выберите Ваш пол
+              <label for="">
+                <input type="radio" name="gender" value="M" /> М
+              </label>
+              <label for="">
+                <input type="radio" name="gender" value="F" /> Ж
+              </label>
+            </div>
+
+            <label for=""
+              >Выберите Ваш город
+              <select name="city" id="">
+                <option value="">-------------------</option>
+                <option value="od">Одесса</option>
+                <option value="kv">Киев</option>
+                <option value="dn">Днепр</option>
+                <option value="xa">Харьков</option>
+                <option value="he">Херсон</option>
+              </select>
+            </label>
+            <div class="checks">
+              Имеете ли Вы скидки?
+              <label for=""
+                ><input type="checkbox" name="sale" value="5%" />5% - владельцам
+                карты "Бонус"</label
+              >
+              <label for=""
+                ><input type="checkbox" name="sale" value="10%" />10% - тем, кто
+                с нами больше 2 лет</label
+              >
+            </div>
+            <button id="sbmBtn" type="button">Подтвердить</button>
+          </form>
+        </div>
+      </div>
+      <div class="view">
+        <h3>Данные покупателя</h3>
+        <div class="viewInner"></div>
+      </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="functions.js"></script>
+    <script src="hw.js"></script>
+  </body>
+</html>

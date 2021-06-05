@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+input,
+select,
+label,
+button {
+  display: block;
+}
+
+.product,
+.buysForm,
+.modelView,
+.login-form {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+}
+
+.top-forms {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.product {
+  padding: 0;
+  width: calc(100% / 4);
+}
+
+.buysForm {
+  background-color: rgb(165, 165, 253);
+  width: 100%;
+}
+
+.phoneView {
+  background-color: rgb(236, 236, 160);
+  padding: 5px;
+  height: 100px;
+}
+
+.modelView {
+  background-color: coral;
+  height: 250px;
+  width: calc(100% / 4);
+}
+
+.login-form {
+  background-color: green;
+  width: calc(100% / 4);
+}
+
+.view {
+  background-color: rgb(243, 83, 83);
+  height: 230px;
+  padding: 5px;
+  padding-left: 20px;
+  margin-left: 50px;
+  width: 30%;
+}
+
+.rad input,
+.checks input {
+  display: inline-block;
+}
